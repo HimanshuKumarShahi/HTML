@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IRCTC.com</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #003366, #0059b3);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    text-align: center;
+    background-color: white;
+    color: #003366;
+    padding: 15px;
+    margin: 0;
+    font-size: 24px;
+    border-bottom: 3px solid #0059b3;
+  }
+
+  h1 img {
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    color: #333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0059b3;
+  }
+</style>
+
+</head>
+
+<body>
+  <h1>
+    <italic>
+      <p><img src="https://iili.io/HNwkyYB.jpg " height="40"> REGISTRATION FORM</p>
+    </italic>
+  </h1>
+  <form action="./submit" method="get">
+      <label for="user">Enter Your First name:</label>
+      <br>
+    <big><input type="text"  id="user" placeholder="FIRST NAME"></big>
+    <br><br>
+      <label for="luser">Enter Your last name:</label>
+      <br>
+    <big><input type="text"  id="luser" placeholder="LAST NAME"></big>
+    <br><br>
+
+
+     <label for="number">Enter your  mobile number:</label>
+     <br>
+     <big><input type="tel" id="number" placeholder="Enter register mob number"></big>
+     <br>
+     <br>
+      <label for="otp">Enter OTP:</label>
+      <br>
+     <big><input id="otp" type="password" placeholder="enter otp"></big>
+     <br> <br>
+
+    <label for="email">Enter Your email:</label>
+    <br>
+    <input type="email" id="email" placeholder="enter email">
+    <br><br>
+    
+    <br><br>
+    <label for="password">Password</label>
+    <br>
+    <big><input type="password" id="password" placeholder="Enter password"></big>
+    <br><br>
+    <input type="submit" value="submit">
+    <br><br>
+    <!-- <label for="1">
+      <input type="radio" value="Male" name="gender" id="1">Male
+    </label>
+    <label for="2">
+      <input type="radio" value="Female" name="gender" id="2">Female
+    </label>
+    <label for="3">
+      <input type="radio" value="Trangender" name="gender" id="3">Transgender
+    </label> -->
+    
+  </form>
+</body>
+
+</html>
